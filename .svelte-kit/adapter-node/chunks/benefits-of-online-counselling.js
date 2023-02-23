@@ -1,10 +1,10 @@
-import { c as create_ssr_component } from "./index.js";
+import { c as create_ssr_component } from "./index2.js";
 const metadata = {
   "title": "What to expect in your first session?",
   "date": "2023-02-20",
   "updated": "2023-02-20",
   "categories": ["Therapy Center"],
-  "coverImage": "/src/lib/img/article_1.webp",
+  "coverImage": "/images/article_1.webp",
   "excerpt": "The ever-evolving world around us has led to technology playing an integral role in how we lead our lives. With the rise of digital healthcare having accelerated in recent times, it’s now common to undergo routine GP check-ups via Zoom, make "
 };
 const Benefits_of_online_counselling = create_ssr_component(($$result, $$props, $$bindings, slots) => {

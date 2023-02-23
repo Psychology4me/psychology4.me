@@ -4,7 +4,7 @@ date: "2023-02-21"
 updated: "2023-02-21"
 categories: 
   - "Therapy Center" 
-coverImage: "/src/lib/img/article_2.webp"
+coverImage: "/images/article_2.webp"
 excerpt: This post shows you how syntax highlighting works here.
 ---
 

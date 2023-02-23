@@ -1,4 +1,4 @@
-import { r as redirect } from "../../../../../../chunks/index2.js";
+import { r as redirect } from "../../../../../../chunks/index.js";
 import { p as postsPerPage } from "../../../../../../chunks/config.js";
 import { f as fetchPosts } from "../../../../../../chunks/fetchPosts.js";
 const load = async ({ fetch, params }) => {

@@ -1,10 +1,10 @@
 export const manifest = {
 	appDir: "_app",
 	appPath: "_app",
-	assets: new Set(["favicon.png","link.svg"]),
-	mimeTypes: {".png":"image/png",".svg":"image/svg+xml"},
+	assets: new Set([".DS_Store","favicon.png","images/.DS_Store","images/article_1.webp","images/article_2.webp","images/article_3.webp","link.svg"]),
+	mimeTypes: {".png":"image/png",".webp":"image/webp",".svg":"image/svg+xml"},
 	_: {
-		client: {"start":{"file":"_app/immutable/entry/start.65f22bd8.mjs","imports":["_app/immutable/entry/start.65f22bd8.mjs","_app/immutable/chunks/index.aad57b58.mjs","_app/immutable/chunks/index.89499e6d.mjs","_app/immutable/chunks/control.e7f5239e.mjs"],"stylesheets":[],"fonts":[]},"app":{"file":"_app/immutable/entry/app.c95faeea.mjs","imports":["_app/immutable/entry/app.c95faeea.mjs","_app/immutable/chunks/preload-helper.41c905a7.mjs","_app/immutable/chunks/index.aad57b58.mjs"],"stylesheets":[],"fonts":[]}},
+		client: {"start":{"file":"_app/immutable/entry/start.98b233ae.mjs","imports":["_app/immutable/entry/start.98b233ae.mjs","_app/immutable/chunks/index.aad57b58.mjs","_app/immutable/chunks/index.89499e6d.mjs","_app/immutable/chunks/control.e7f5239e.mjs"],"stylesheets":[],"fonts":[]},"app":{"file":"_app/immutable/entry/app.ce68deff.mjs","imports":["_app/immutable/entry/app.ce68deff.mjs","_app/immutable/chunks/preload-helper.41c905a7.mjs","_app/immutable/chunks/index.aad57b58.mjs"],"stylesheets":[],"fonts":[]}},
 		nodes: [
 			() => import('./nodes/0.js'),
 			() => import('./nodes/1.js'),

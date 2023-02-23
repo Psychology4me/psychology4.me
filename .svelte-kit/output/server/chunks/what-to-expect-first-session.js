@@ -4,7 +4,7 @@ const metadata = {
   "date": "2023-02-17",
   "updated": "2023-02-17",
   "categories": ["Therapy Center"],
-  "coverImage": "/src/lib/img/article_3.webp",
+  "coverImage": "/images/article_3.webp",
   "excerpt": "Check out how heading links work with this starter in this post."
 };
 const What_to_expect_first_session = create_ssr_component(($$result, $$props, $$bindings, slots) => {

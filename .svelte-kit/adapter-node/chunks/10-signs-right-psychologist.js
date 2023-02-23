@@ -1,10 +1,10 @@
-import { c as create_ssr_component } from "./index.js";
+import { c as create_ssr_component } from "./index2.js";
 const metadata = {
   "title": "10 signs you've found the right psychologist.",
   "date": "2023-02-21",
   "updated": "2023-02-21",
   "categories": ["Therapy Center"],
-  "coverImage": "/src/lib/img/article_2.webp",
+  "coverImage": "/images/article_2.webp",
   "excerpt": "This post shows you how syntax highlighting works here."
 };
 const _10_signs_right_psychologist = create_ssr_component(($$result, $$props, $$bindings, slots) => {

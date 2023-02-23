@@ -1,10 +1,10 @@
 export const manifest = {
 	appDir: "_app",
 	appPath: "_app",
-	assets: new Set(["favicon.png","link.svg"]),
-	mimeTypes: {".png":"image/png",".svg":"image/svg+xml"},
+	assets: new Set([".DS_Store","favicon.png","images/.DS_Store","images/article_1.webp","images/article_2.webp","images/article_3.webp","link.svg"]),
+	mimeTypes: {".png":"image/png",".webp":"image/webp",".svg":"image/svg+xml"},
 	_: {
-		entry: {"file":"_app/immutable/start-99210ec8.js","imports":["_app/immutable/start-99210ec8.js","_app/immutable/chunks/index-120223f3.js","_app/immutable/chunks/index-cc797899.js","_app/immutable/chunks/control-f0c9d9df.js"],"stylesheets":[],"fonts":[]},
+		client: {"start":{"file":"_app/immutable/entry/start.98b233ae.mjs","imports":["_app/immutable/entry/start.98b233ae.mjs","_app/immutable/chunks/index.aad57b58.mjs","_app/immutable/chunks/index.89499e6d.mjs","_app/immutable/chunks/control.e7f5239e.mjs"],"stylesheets":[],"fonts":[]},"app":{"file":"_app/immutable/entry/app.ce68deff.mjs","imports":["_app/immutable/entry/app.ce68deff.mjs","_app/immutable/chunks/preload-helper.41c905a7.mjs","_app/immutable/chunks/index.aad57b58.mjs"],"stylesheets":[],"fonts":[]}},
 		nodes: [
 			() => import('./nodes/0.js'),
 			() => import('./nodes/1.js'),

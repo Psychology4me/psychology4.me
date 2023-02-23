@@ -2,8 +2,9 @@ import * as server from '../entries/pages/blog/category/page/_page_/_page.server
 
 export const index = 10;
 export const component = async () => (await import('../entries/pages/blog/category/page/_page_/_page.svelte.js')).default;
-export const file = '_app/immutable/components/pages/blog/category/page/_page_/_page.svelte-afe1c53e.js';
+export const file = '_app/immutable/entry/blog-category-page-_page_-page.svelte.2f859bbf.mjs';
 export { server };
-export const imports = ["_app/immutable/components/pages/blog/category/page/_page_/_page.svelte-afe1c53e.js","_app/immutable/chunks/index-120223f3.js"];
+export const server_id = "src/routes/blog/category/page/[page]/+page.server.js";
+export const imports = ["_app/immutable/entry/blog-category-page-_page_-page.svelte.2f859bbf.mjs","_app/immutable/chunks/index.aad57b58.mjs"];
 export const stylesheets = [];
 export const fonts = [];
