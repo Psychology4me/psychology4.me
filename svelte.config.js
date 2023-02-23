@@ -1,3 +1,4 @@
+import { mdsvex } from 'mdsvex'
 import adapter from '@sveltejs/adapter-vercel'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeSlug from 'rehype-slug'
@@ -21,9 +22,7 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter({
-			// see the 'Deployment configuration' section below
-		}),
+		adapter: adapter(),
     prerender: {
       entries: [
         '*',
