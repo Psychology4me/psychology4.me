@@ -1,4 +1,4 @@
-import { c as create_ssr_component } from "../../../chunks/index.js";
+import { c as create_ssr_component } from "../../../chunks/index2.js";
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${$$result.head += `<!-- HEAD_svelte-1hze0a8_START -->${$$result.title = `<title>Privacy Policy - Psychology4.me</title>`, ""}<meta data-key="${"description"}" name="${"description"}" content="${"As a psychologist I am legally bound to confidentiality. This is in regard to all matters confided to me during the course of my counselling. Email addresses, contact information, names, personal or medical data will not be disclosed without the explicit consent of the person concerned (except when legally required)."}"><!-- HEAD_svelte-1hze0a8_END -->`, ""}
 <section class="${"padding-top-10"}"><div class="${"content"}"><div class="${"container-l"}"><div class="${"container-m"}"><h1 class="${"heading-5 padding-top-10"}">Privacy Policy</h1>

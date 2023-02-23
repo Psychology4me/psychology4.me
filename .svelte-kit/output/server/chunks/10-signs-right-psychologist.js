@@ -1,4 +1,4 @@
-import { c as create_ssr_component } from "./index.js";
+import { c as create_ssr_component } from "./index2.js";
 const metadata = {
   "title": "10 signs you've found the right psychologist.",
   "date": "2023-02-21",

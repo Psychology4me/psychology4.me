@@ -1,6 +1,6 @@
 import { p as postsPerPage } from "../../../../../../chunks/config.js";
 import { f as fetchPosts } from "../../../../../../chunks/fetchPosts.js";
-import { j as json } from "../../../../../../chunks/index2.js";
+import { j as json } from "../../../../../../chunks/index.js";
 const prerender = true;
 const GET = async ({ params }) => {
   const { page } = params || 1;

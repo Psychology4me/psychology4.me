@@ -1,4 +1,4 @@
-import { c as create_ssr_component, e as escape, b as add_attribute } from "../../../chunks/index.js";
+import { c as create_ssr_component, e as escape, b as add_attribute } from "../../../chunks/index2.js";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime.js";
 dayjs.extend(relativeTime);

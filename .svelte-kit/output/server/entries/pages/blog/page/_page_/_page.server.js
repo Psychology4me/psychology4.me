@@ -1,6 +1,6 @@
 import { p as postsPerPage } from "../../../../../chunks/config.js";
 import { f as fetchPosts } from "../../../../../chunks/fetchPosts.js";
-import { r as redirect } from "../../../../../chunks/index2.js";
+import { r as redirect } from "../../../../../chunks/index.js";
 const load = async ({ url, params, fetch }) => {
   const page = parseInt(params.page) || 1;
   if (page <= 1) {

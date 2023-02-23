@@ -2,7 +2,7 @@
 
 export const index = 4;
 export const component = async () => (await import('../entries/pages/about/_page.svelte.js')).default;
-export const file = '_app/immutable/components/pages/about/_page.svelte-3b4d9998.js';
-export const imports = ["_app/immutable/components/pages/about/_page.svelte-3b4d9998.js","_app/immutable/chunks/index-120223f3.js","_app/immutable/chunks/index-fa06bba9.js","_app/immutable/chunks/AccordionItem-cd8444af.js","_app/immutable/chunks/index-cc797899.js"];
+export const file = '_app/immutable/entry/about-page.svelte.dc5f8fb4.mjs';
+export const imports = ["_app/immutable/entry/about-page.svelte.dc5f8fb4.mjs","_app/immutable/chunks/index.aad57b58.mjs","_app/immutable/chunks/index.ef9b2d36.mjs","_app/immutable/chunks/AccordionItem.9f3c9dc7.mjs","_app/immutable/chunks/index.89499e6d.mjs"];
 export const stylesheets = [];
 export const fonts = [];

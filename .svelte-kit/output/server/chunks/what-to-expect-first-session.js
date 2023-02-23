@@ -1,4 +1,4 @@
-import { c as create_ssr_component } from "./index.js";
+import { c as create_ssr_component } from "./index2.js";
 const metadata = {
   "title": "What to expect in your first session?",
   "date": "2023-02-17",
