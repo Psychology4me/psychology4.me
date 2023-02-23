@@ -1,0 +1,353 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_index2.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/build/hooks.js"
+    ]
+  },
+  "src/routes/api/posts.json/+server.js": {
+    "file": "entries/endpoints/api/posts.json/_server.js",
+    "src": "src/routes/api/posts.json/+server.js",
+    "isEntry": true,
+    "imports": [
+      "_config.js",
+      "_fetchPosts.js",
+      "_index2.js"
+    ]
+  },
+  "src/routes/api/posts/count/+server.js": {
+    "file": "entries/endpoints/api/posts/count/_server.js",
+    "src": "src/routes/api/posts/count/+server.js",
+    "isEntry": true,
+    "imports": [
+      "_index2.js"
+    ],
+    "dynamicImports": [
+      "src/lib/posts/10-signs-right-psychologist.md",
+      "src/lib/posts/benefits-of-online-counselling.md",
+      "src/lib/posts/what-to-expect-first-session.md"
+    ]
+  },
+  "src/routes/api/posts/page/[page]/+server.js": {
+    "file": "entries/endpoints/api/posts/page/_page_/_server.js",
+    "src": "src/routes/api/posts/page/[page]/+server.js",
+    "isEntry": true,
+    "imports": [
+      "_config.js",
+      "_fetchPosts.js",
+      "_index2.js"
+    ]
+  },
+  "src/routes/api/rss.xml/+server.js": {
+    "file": "entries/endpoints/api/rss.xml/_server.js",
+    "src": "src/routes/api/rss.xml/+server.js",
+    "isEntry": true,
+    "imports": [
+      "_config.js"
+    ],
+    "dynamicImports": [
+      "src/lib/posts/10-signs-right-psychologist.md",
+      "src/lib/posts/benefits-of-online-counselling.md",
+      "src/lib/posts/what-to-expect-first-session.md"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-b02f2c04.css"
+    ]
+  },
+  "src/routes/+error.svelte": {
+    "file": "entries/pages/_error.svelte.js",
+    "src": "src/routes/+error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/[post]/+page.svelte": {
+    "file": "entries/pages/_post_/_page.svelte.js",
+    "src": "src/routes/[post]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/[post]/+page.js": {
+    "file": "entries/pages/_post_/_page.js",
+    "src": "src/routes/[post]/+page.js",
+    "isEntry": true,
+    "imports": [
+      "_index2.js"
+    ],
+    "dynamicImports": [
+      "src/lib/posts/10-signs-right-psychologist.md",
+      "src/lib/posts/benefits-of-online-counselling.md",
+      "src/lib/posts/what-to-expect-first-session.md"
+    ]
+  },
+  "src/routes/about/+page.svelte": {
+    "file": "entries/pages/about/_page.svelte.js",
+    "src": "src/routes/about/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/blog/+page.svelte": {
+    "file": "entries/pages/blog/_page.svelte.js",
+    "src": "src/routes/blog/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_Pagination.js"
+    ]
+  },
+  "src/routes/blog/+page.server.js": {
+    "file": "entries/pages/blog/_page.server.js",
+    "src": "src/routes/blog/+page.server.js",
+    "isEntry": true
+  },
+  "src/routes/blog/category/+page.svelte": {
+    "file": "entries/pages/blog/category/_page.svelte.js",
+    "src": "src/routes/blog/category/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/blog/category/+page.server.js": {
+    "file": "entries/pages/blog/category/_page.server.js",
+    "src": "src/routes/blog/category/+page.server.js",
+    "isEntry": true
+  },
+  "src/routes/blog/category/[category]/+page.svelte": {
+    "file": "entries/pages/blog/category/_category_/_page.svelte.js",
+    "src": "src/routes/blog/category/[category]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_Pagination.js"
+    ]
+  },
+  "src/routes/blog/category/[category]/+page.server.js": {
+    "file": "entries/pages/blog/category/_category_/_page.server.js",
+    "src": "src/routes/blog/category/[category]/+page.server.js",
+    "isEntry": true,
+    "imports": [
+      "_fetchPosts.js"
+    ]
+  },
+  "src/routes/blog/category/[category]/page/+page.svelte": {
+    "file": "entries/pages/blog/category/_category_/page/_page.svelte.js",
+    "src": "src/routes/blog/category/[category]/page/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/blog/category/[category]/page/+page.server.js": {
+    "file": "entries/pages/blog/category/_category_/page/_page.server.js",
+    "src": "src/routes/blog/category/[category]/page/+page.server.js",
+    "isEntry": true,
+    "imports": [
+      "_index2.js"
+    ]
+  },
+  "src/routes/blog/category/[category]/page/[page]/+page.svelte": {
+    "file": "entries/pages/blog/category/_category_/page/_page_/_page.svelte.js",
+    "src": "src/routes/blog/category/[category]/page/[page]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_Pagination.js"
+    ]
+  },
+  "src/routes/blog/category/[category]/page/[page]/+page.server.js": {
+    "file": "entries/pages/blog/category/_category_/page/_page_/_page.server.js",
+    "src": "src/routes/blog/category/[category]/page/[page]/+page.server.js",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_config.js",
+      "_fetchPosts.js"
+    ]
+  },
+  "src/routes/blog/category/page/[page]/+page.svelte": {
+    "file": "entries/pages/blog/category/page/_page_/_page.svelte.js",
+    "src": "src/routes/blog/category/page/[page]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/blog/category/page/[page]/+page.server.js": {
+    "file": "entries/pages/blog/category/page/_page_/_page.server.js",
+    "src": "src/routes/blog/category/page/[page]/+page.server.js",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_config.js",
+      "_fetchPosts.js"
+    ]
+  },
+  "src/routes/blog/page/+page.svelte": {
+    "file": "entries/pages/blog/page/_page.svelte.js",
+    "src": "src/routes/blog/page/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/blog/page/+page.server.js": {
+    "file": "entries/pages/blog/page/_page.server.js",
+    "src": "src/routes/blog/page/+page.server.js",
+    "isEntry": true,
+    "imports": [
+      "_index2.js"
+    ]
+  },
+  "src/routes/blog/page/[page]/+page.svelte": {
+    "file": "entries/pages/blog/page/_page_/_page.svelte.js",
+    "src": "src/routes/blog/page/[page]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_Pagination.js",
+      "_config.js"
+    ]
+  },
+  "src/routes/blog/page/[page]/+page.server.js": {
+    "file": "entries/pages/blog/page/_page_/_page.server.js",
+    "src": "src/routes/blog/page/[page]/+page.server.js",
+    "isEntry": true,
+    "imports": [
+      "_config.js",
+      "_fetchPosts.js",
+      "_index2.js"
+    ]
+  },
+  "src/routes/contact/+page.svelte": {
+    "file": "entries/pages/contact/_page.svelte.js",
+    "src": "src/routes/contact/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/couple/+page.svelte": {
+    "file": "entries/pages/couple/_page.svelte.js",
+    "src": "src/routes/couple/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/disclaimer/+page.svelte": {
+    "file": "entries/pages/disclaimer/_page.svelte.js",
+    "src": "src/routes/disclaimer/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/individual/+page.svelte": {
+    "file": "entries/pages/individual/_page.svelte.js",
+    "src": "src/routes/individual/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/price/+page.svelte": {
+    "file": "entries/pages/price/_page.svelte.js",
+    "src": "src/routes/price/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/privacy/+page.svelte": {
+    "file": "entries/pages/privacy/_page.svelte.js",
+    "src": "src/routes/privacy/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  ".svelte-kit/build/hooks.js": {
+    "file": "chunks/hooks.js",
+    "src": ".svelte-kit/build/hooks.js",
+    "isDynamicEntry": true
+  },
+  "_index.js": {
+    "file": "chunks/index.js"
+  },
+  "_index2.js": {
+    "file": "chunks/index2.js"
+  },
+  "_config.js": {
+    "file": "chunks/config.js"
+  },
+  "_fetchPosts.js": {
+    "file": "chunks/fetchPosts.js",
+    "imports": [
+      "_config.js"
+    ],
+    "dynamicImports": [
+      "src/lib/posts/10-signs-right-psychologist.md",
+      "src/lib/posts/benefits-of-online-counselling.md",
+      "src/lib/posts/what-to-expect-first-session.md"
+    ]
+  },
+  "src/lib/posts/10-signs-right-psychologist.md": {
+    "file": "chunks/10-signs-right-psychologist.js",
+    "src": "src/lib/posts/10-signs-right-psychologist.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/lib/posts/benefits-of-online-counselling.md": {
+    "file": "chunks/benefits-of-online-counselling.js",
+    "src": "src/lib/posts/benefits-of-online-counselling.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/lib/posts/what-to-expect-first-session.md": {
+    "file": "chunks/what-to-expect-first-session.js",
+    "src": "src/lib/posts/what-to-expect-first-session.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "_Pagination.js": {
+    "file": "chunks/Pagination.js",
+    "imports": [
+      "_index.js",
+      "_config.js"
+    ]
+  }
+}
